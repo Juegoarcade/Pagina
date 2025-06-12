@@ -50,7 +50,7 @@ class CompraApp(QWidget):
 
         self.setLayout(layout)
 
-        self.cargar_imagen_inicial("flc.png")
+        self.cargar_imagen_inicial("flc.jpg")
 
     def agregar_producto(self):
         nombre = self.input_nombre.text().strip()
